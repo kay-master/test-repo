@@ -2,6 +2,9 @@
 1. Explain the difference between an abstract class and an interface.
   
 2. What is the purpose of getters and setters in a class?
+In OOP, getters and setters are used to protect data & hide implementation details. Getters are known as accessors and setters are known as mutators, by convention, getters start with the word "get" and setters with the word "set", then following with a variable name which starts with a capital letter. 
+
+They allow you to control how important variables are accessed and updated in your code, with a chance to validate the input in the setter before actually setting the value. For example making a variable private that means you would use a setter method to update it, then use a getter to access it.
 	
 #### Section 2 - Testing - (5 mins)
 Explain the purpose of black box testing

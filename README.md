@@ -39,13 +39,13 @@ The fs.read method reads the file using the file descriptor & stores in the buff
 * Tasks that are largely independent from one another so there is little need for inter-task communication between them.
 
 
-Section 4 - NodeJS coding - (15 - 20 mins)
-(a) is a trivial example of callback hell
-Refactor the code for the better, using any techniques you are aware of
-Place code in load_contents.js
-Take path as an argument
+#### Section 4 - NodeJS coding - (15 - 20 mins)
+1. ##### (a) is a trivial example of callback hell
+	* Refactor the code for the better, using any techniques you are aware of
+	* Place code in load_contents.js
+	* Take path as an argument
 
-Section 5 - NodeJS coding with classes - Fruit Basket - (40 - 50 mins)
+#### Section 5 - NodeJS coding with classes - Fruit Basket - (40 - 50 mins)
 Load data from file `input.json`, the file contents are given in (i) Example input data
 You must create and use a FruitBasket class and a Fruit class.
 You may create any additional classes based on your approach 

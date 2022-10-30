@@ -34,7 +34,9 @@ This pattern exist as a convention and as Node.js relies on asynchronous code to
 The fs.read method reads the file using the file descriptor & stores in the buffer, as this is a asynchronous method it takes in 5 arguments where the last arg is a callback function which uses the Error-first pattern. Lastly fs.readSync is a synchronous version of buffer-based fs.read that returns the number of bytes.
 
 5. ##### What tasks do you feel should be done asynchronously?
-* When 
+* When there are a large number of complex tasks within the loop that need to make progress.
+* Tasks that perform a number of I/O operations (network, file reads), causing a synchronous program to waste time blocking when other tasks could be running.
+* Tasks that are largely independent from one another so there is little need for inter-task communication between them.
 
 
 Section 4 - NodeJS coding - (15 - 20 mins)

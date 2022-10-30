@@ -30,7 +30,12 @@ This pattern exist as a convention and as Node.js relies on asynchronous code to
 
 
 3. ##### Explain the difference between fs.readSync and fs.read (File System module in Nodejs)
-What tasks do you feel should be done asynchronously?
+
+The fs.read method reads the file using the file descriptor & stores in the buffer, as this is a asynchronous method it takes in 5 arguments where the last arg is a callback function which uses the Error-first pattern. Lastly fs.readSync is a synchronous version of buffer-based fs.read that returns the number of bytes.
+
+5. ##### What tasks do you feel should be done asynchronously?
+* When 
+
 
 Section 4 - NodeJS coding - (15 - 20 mins)
 (a) is a trivial example of callback hell

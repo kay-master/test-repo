@@ -1,3 +1,11 @@
+### Setup
+
+#### Install packages
+run `yarn run dev`
+
+#### For running tests
+run `yarn test`
+
 #### Section 1 - (5 mins)
 1. ##### Explain the difference between an abstract class and an interface.
 

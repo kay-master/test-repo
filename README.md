@@ -1,5 +1,7 @@
 #### Section 1 - (5 mins)
 1. ##### Explain the difference between an abstract class and an interface.
+
+An interface is a structure that defines the specifications of an entity in an application, whereas an abstract class is mainly for inheritance where other classes may derive from them also it is a restricted class that cannot be used to create objects, to access it, it must be inherited from another class.
   
 2. ##### What is the purpose of getters and setters in a class?
 
@@ -46,21 +48,21 @@ The fs.read method reads the file using the file descriptor & stores in the buff
 	* Take path as an argument
 
 #### Section 5 - NodeJS coding with classes - Fruit Basket - (40 - 50 mins)
-Load data from file `input.json`, the file contents are given in (i) Example input data
-You must create and use a FruitBasket class and a Fruit class.
-You may create any additional classes based on your approach 
-Implement code that will answer the following questions:
-How many fruits are in the basket
-How many fruits of a specific type are in the basket
-How heavy is the basket
-Output the data to file `output.json`, the file format should match (ii) Example output data for the given input data in (i), this is simply a json file
-Create a success scenario black box test
+1. Load data from file `input.json`, the file contents are given in (i) Example input data
+2. You must create and use a FruitBasket class and a Fruit class.
+	* You may create any additional classes based on your approach 
+3. Implement code that will answer the following questions:
+	* How many fruits are in the basket
+	* How many fruits of a specific type are in the basket
+	* How heavy is the basket
+4. Output the data to file `output.json`, the file format should match (ii) Example output data for the given input data in (i), this is simply a json file
+5. Create a success scenario black box test
 
 
-Section 6 - NodeJS test cases - Fruit Basket 
+#### Section 6 - NodeJS test cases - Fruit Basket 
 This is an optional section and does not need to be completed if you have already spent more than an hour and a half on the previous sections
-Create a failure scenario black box test
-Write the unit test cases you feel are most relevant
+1. Create a failure scenario black box test
+2. Write the unit test cases you feel are most relevant
 
 
 
